@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/Ahmedsamir/Documents/xcode/Meatier Shower/8.png">
+   </FileRef>
+   <FileRef
       location = "self:Meatier Shower.xcodeproj">
    </FileRef>
 </Workspace>

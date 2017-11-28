@@ -8,13 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		8C1A76BF1FBD037600A5574D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1A76BE1FBD037600A5574D /* AppDelegate.m */; };
-		8C1A76C21FBD037600A5574D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1A76C11FBD037600A5574D /* ViewController.m */; };
+		8C1A76C21FBD037600A5574D /*  ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1A76C11FBD037600A5574D /*  ViewController.m */; };
 		8C1A76C51FBD037600A5574D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C1A76C31FBD037600A5574D /* Main.storyboard */; };
 		8C1A76C71FBD037600A5574D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1A76C61FBD037600A5574D /* Assets.xcassets */; };
-		8C1A76CA1FBD037600A5574D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C1A76C81FBD037600A5574D /* LaunchScreen.storyboard */; };
 		8C1A76CD1FBD037600A5574D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1A76CC1FBD037600A5574D /* main.m */; };
 		8C1A76D71FBD037600A5574D /* Meatier_ShowerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1A76D61FBD037600A5574D /* Meatier_ShowerTests.m */; };
 		8C1A76E21FBD037600A5574D /* Meatier_ShowerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1A76E11FBD037600A5574D /* Meatier_ShowerUITests.m */; };
+		8C1A76F41FBD038700A5574D /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8C1A76F01FBD038700A5574D /* giphy.gif */; };
+		8C1A77021FBD05D700A5574D /* Stars  Space Effect Background .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8C1A77011FBD05D700A5574D /* Stars  Space Effect Background .mp4 */; };
+		8C1A77041FBD05DB00A5574D /* shoot.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1A77031FBD05DB00A5574D /* shoot.png */; };
+		8C1A77061FBD05E600A5574D /* spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1A77051FBD05E600A5574D /* spaceship.png */; };
+		8C1A77081FBD074900A5574D /* space background.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8C1A77071FBD074900A5574D /* space background.gif */; };
+		8C7ED8ED1FC4835B00508CBF /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7ED8E61FC4835A00508CBF /* 2.png */; };
+		8C7ED8EE1FC4835B00508CBF /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7ED8E71FC4835A00508CBF /* 4.png */; };
+		8C7ED8EF1FC4835B00508CBF /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7ED8E81FC4835A00508CBF /* 7.png */; };
+		8C7ED8F01FC4835B00508CBF /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7ED8E91FC4835A00508CBF /* 6.png */; };
+		8C7ED8F11FC4835B00508CBF /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7ED8EA1FC4835A00508CBF /* 1.png */; };
+		8C7ED8F21FC4835B00508CBF /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7ED8EB1FC4835B00508CBF /* 3.png */; };
+		8C7ED8F31FC4835B00508CBF /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7ED8EC1FC4835B00508CBF /* 5.png */; };
+		8C7ED8F71FC51D1000508CBF /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7ED8F61FC4B4DB00508CBF /* 8.png */; };
+		8C8C8C6C1FBD29F4000BA90D /* 1080x1920-Space-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8C8C6B1FBD29F3000BA90D /* 1080x1920-Space-background.png */; };
+		8CA3C1B31FC3CCF500512EA8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA3C1B21FC3CCE900512EA8 /* AudioToolbox.framework */; };
+		8CA7E0B41FBDF02D00060062 /* Meteor Showermenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7E0B31FBDF02D00060062 /* Meteor Showermenu.jpg */; };
+		8CA7E0B81FBDF8D500060062 /* Group 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7E0B51FBDF8D200060062 /* Group 3.png */; };
+		8CA7E0B91FBDF8D500060062 /* Group 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7E0B61FBDF8D300060062 /* Group 2.png */; };
+		8CA7E0BA1FBDF8D500060062 /* Custom Picker Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7E0B71FBDF8D400060062 /* Custom Picker Dark.png */; };
+		8CA7E0BC1FBDFBCE00060062 /* Meteor Showermenu@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7E0BB1FBDFBCD00060062 /* Meteor Showermenu@1x.png */; };
+		8CA7E0BE1FBDFCCC00060062 /* Slider_ Volume_ Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7E0BD1FBDFCCC00060062 /* Slider_ Volume_ Dark.png */; };
+		8CA7E0C01FBDFF0700060062 /* Artboard 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7E0BF1FBDFF0600060062 /* Artboard 1.png */; };
+		8CA7E0C21FBE02E900060062 /* Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7E0C11FBE02E800060062 /* Dark.png */; };
+		8CA7E0C41FBE03DE00060062 /* Meteor Showermenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7E0C31FBE03DD00060062 /* Meteor Showermenu@2x.png */; };
+		8CA7E0C61FBE043400060062 /* Layer  3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7E0C51FBE043300060062 /* Layer  3.png */; };
+		8CA7E0C81FBE059700060062 /* iOS 11 Beta Icon 3 - 1024 pixel fullview.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7E0C71FBE059700060062 /* iOS 11 Beta Icon 3 - 1024 pixel fullview.png */; };
+		8CCA27061FC2446100A5DD31 /* giphy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA27041FC2446100A5DD31 /* giphy.png */; };
+		8CCA27081FC2455E00A5DD31 /* space background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA27071FC2455E00A5DD31 /* space background.jpg */; };
+		8CCA270A1FC249C600A5DD31 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA27091FC249C600A5DD31 /* Launch Screen.storyboard */; };
+		8CCA270C1FC24FD200A5DD31 /* Meteor Shower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA270B1FC24FD100A5DD31 /* Meteor Shower.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +68,9 @@
 		8C1A76BD1FBD037600A5574D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8C1A76BE1FBD037600A5574D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8C1A76C01FBD037600A5574D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8C1A76C11FBD037600A5574D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C1A76C11FBD037600A5574D /*  ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = " ViewController.m"; sourceTree = "<group>"; };
 		8C1A76C41FBD037600A5574D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C1A76C61FBD037600A5574D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8C1A76C91FBD037600A5574D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C1A76CB1FBD037600A5574D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C1A76CC1FBD037600A5574D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C1A76D21FBD037600A5574D /* Meatier ShowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meatier ShowerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +79,37 @@
 		8C1A76DD1FBD037600A5574D /* Meatier ShowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meatier ShowerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1A76E11FBD037600A5574D /* Meatier_ShowerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meatier_ShowerUITests.m; sourceTree = "<group>"; };
 		8C1A76E31FBD037600A5574D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C1A76F01FBD038700A5574D /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = "space /giphy.gif"; sourceTree = "<group>"; };
+		8C1A77011FBD05D700A5574D /* Stars  Space Effect Background .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Stars  Space Effect Background .mp4"; sourceTree = "<group>"; };
+		8C1A77031FBD05DB00A5574D /* shoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoot.png; sourceTree = "<group>"; };
+		8C1A77051FBD05E600A5574D /* spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceship.png; sourceTree = "<group>"; };
+		8C1A77071FBD074900A5574D /* space background.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "space background.gif"; sourceTree = "<group>"; };
+		8C7ED8E61FC4835A00508CBF /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = "space /spirit/2.png"; sourceTree = "<group>"; };
+		8C7ED8E71FC4835A00508CBF /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = "space /spirit/4.png"; sourceTree = "<group>"; };
+		8C7ED8E81FC4835A00508CBF /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7.png; path = "space /spirit/7.png"; sourceTree = "<group>"; };
+		8C7ED8E91FC4835A00508CBF /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6.png; path = "space /spirit/6.png"; sourceTree = "<group>"; };
+		8C7ED8EA1FC4835A00508CBF /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = "space /spirit/1.png"; sourceTree = "<group>"; };
+		8C7ED8EB1FC4835B00508CBF /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = "space /spirit/3.png"; sourceTree = "<group>"; };
+		8C7ED8EC1FC4835B00508CBF /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = "space /spirit/5.png"; sourceTree = "<group>"; };
+		8C7ED8F61FC4B4DB00508CBF /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8.png; path = "/Users/Ahmedsamir/Documents/xcode/Meatier Shower/8.png"; sourceTree = "<absolute>"; };
+		8C7ED8F81FC5209200508CBF /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8.png; path = "/Users/Ahmedsamir/Documents/xcode/Meatier Shower/8.png"; sourceTree = "<absolute>"; };
+		8C8C8C6B1FBD29F3000BA90D /* 1080x1920-Space-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1080x1920-Space-background.png"; sourceTree = "<group>"; };
+		8CA3C1B21FC3CCE900512EA8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8CA7E0B31FBDF02D00060062 /* Meteor Showermenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Meteor Showermenu.jpg"; sourceTree = "<group>"; };
+		8CA7E0B51FBDF8D200060062 /* Group 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 3.png"; sourceTree = "<group>"; };
+		8CA7E0B61FBDF8D300060062 /* Group 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 2.png"; sourceTree = "<group>"; };
+		8CA7E0B71FBDF8D400060062 /* Custom Picker Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Custom Picker Dark.png"; sourceTree = "<group>"; };
+		8CA7E0BB1FBDFBCD00060062 /* Meteor Showermenu@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Meteor Showermenu@1x.png"; sourceTree = "<group>"; };
+		8CA7E0BD1FBDFCCC00060062 /* Slider_ Volume_ Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slider_ Volume_ Dark.png"; sourceTree = "<group>"; };
+		8CA7E0BF1FBDFF0600060062 /* Artboard 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 1.png"; sourceTree = "<group>"; };
+		8CA7E0C11FBE02E800060062 /* Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dark.png; sourceTree = "<group>"; };
+		8CA7E0C31FBE03DD00060062 /* Meteor Showermenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Meteor Showermenu@2x.png"; sourceTree = "<group>"; };
+		8CA7E0C51FBE043300060062 /* Layer  3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer  3.png"; sourceTree = "<group>"; };
+		8CA7E0C71FBE059700060062 /* iOS 11 Beta Icon 3 - 1024 pixel fullview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS 11 Beta Icon 3 - 1024 pixel fullview.png"; sourceTree = "<group>"; };
+		8CCA27041FC2446100A5DD31 /* giphy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy.png; sourceTree = SOURCE_ROOT; };
+		8CCA27071FC2455E00A5DD31 /* space background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "space background.jpg"; sourceTree = SOURCE_ROOT; };
+		8CCA27091FC249C600A5DD31 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8CCA270B1FC24FD100A5DD31 /* Meteor Shower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Meteor Shower.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA3C1B31FC3CCF500512EA8 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +145,36 @@
 				8C1A76D51FBD037600A5574D /* Meatier ShowerTests */,
 				8C1A76E01FBD037600A5574D /* Meatier ShowerUITests */,
 				8C1A76BB1FBD037600A5574D /* Products */,
+				8C7ED8F61FC4B4DB00508CBF /* 8.png */,
+				8C7ED8F81FC5209200508CBF /* 8.png */,
+				8C7ED8EA1FC4835A00508CBF /* 1.png */,
+				8C7ED8E61FC4835A00508CBF /* 2.png */,
+				8C7ED8EB1FC4835B00508CBF /* 3.png */,
+				8C7ED8E71FC4835A00508CBF /* 4.png */,
+				8C7ED8EC1FC4835B00508CBF /* 5.png */,
+				8C7ED8E91FC4835A00508CBF /* 6.png */,
+				8C7ED8E81FC4835A00508CBF /* 7.png */,
+				8CCA27071FC2455E00A5DD31 /* space background.jpg */,
+				8CCA270B1FC24FD100A5DD31 /* Meteor Shower.jpg */,
+				8CCA27041FC2446100A5DD31 /* giphy.png */,
+				8CA7E0C31FBE03DD00060062 /* Meteor Showermenu@2x.png */,
+				8CA7E0C71FBE059700060062 /* iOS 11 Beta Icon 3 - 1024 pixel fullview.png */,
+				8CA7E0C51FBE043300060062 /* Layer  3.png */,
+				8CA7E0B71FBDF8D400060062 /* Custom Picker Dark.png */,
+				8CA7E0C11FBE02E800060062 /* Dark.png */,
+				8CA7E0B61FBDF8D300060062 /* Group 2.png */,
+				8CA7E0B51FBDF8D200060062 /* Group 3.png */,
+				8CA7E0BB1FBDFBCD00060062 /* Meteor Showermenu@1x.png */,
+				8C1A76F01FBD038700A5574D /* giphy.gif */,
+				8CA7E0BF1FBDFF0600060062 /* Artboard 1.png */,
+				8CA7E0BD1FBDFCCC00060062 /* Slider_ Volume_ Dark.png */,
+				8C8C8C6B1FBD29F3000BA90D /* 1080x1920-Space-background.png */,
+				8CA7E0B31FBDF02D00060062 /* Meteor Showermenu.jpg */,
+				8C1A77071FBD074900A5574D /* space background.gif */,
+				8C1A77011FBD05D700A5574D /* Stars  Space Effect Background .mp4 */,
+				8C1A77031FBD05DB00A5574D /* shoot.png */,
+				8C1A77051FBD05E600A5574D /* spaceship.png */,
+				8CA3C1B11FC3CCE900512EA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +194,10 @@
 				8C1A76BD1FBD037600A5574D /* AppDelegate.h */,
 				8C1A76BE1FBD037600A5574D /* AppDelegate.m */,
 				8C1A76C01FBD037600A5574D /* ViewController.h */,
-				8C1A76C11FBD037600A5574D /* ViewController.m */,
+				8C1A76C11FBD037600A5574D /*  ViewController.m */,
 				8C1A76C31FBD037600A5574D /* Main.storyboard */,
+				8CCA27091FC249C600A5DD31 /* Launch Screen.storyboard */,
 				8C1A76C61FBD037600A5574D /* Assets.xcassets */,
-				8C1A76C81FBD037600A5574D /* LaunchScreen.storyboard */,
 				8C1A76CB1FBD037600A5574D /* Info.plist */,
 				8C1A76CC1FBD037600A5574D /* main.m */,
 			);
@@ -130,6 +220,14 @@
 				8C1A76E31FBD037600A5574D /* Info.plist */,
 			);
 			path = "Meatier ShowerUITests";
+			sourceTree = "<group>";
+		};
+		8CA3C1B11FC3CCE900512EA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CA3C1B21FC3CCE900512EA8 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,8 +336,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C1A76CA1FBD037600A5574D /* LaunchScreen.storyboard in Resources */,
+				8C7ED8F71FC51D1000508CBF /* 8.png in Resources */,
+				8C1A77021FBD05D700A5574D /* Stars  Space Effect Background .mp4 in Resources */,
+				8C7ED8EF1FC4835B00508CBF /* 7.png in Resources */,
+				8CA7E0C01FBDFF0700060062 /* Artboard 1.png in Resources */,
+				8C7ED8F01FC4835B00508CBF /* 6.png in Resources */,
+				8C1A77061FBD05E600A5574D /* spaceship.png in Resources */,
+				8C7ED8EE1FC4835B00508CBF /* 4.png in Resources */,
+				8C1A77041FBD05DB00A5574D /* shoot.png in Resources */,
+				8CA7E0C41FBE03DE00060062 /* Meteor Showermenu@2x.png in Resources */,
+				8CCA27061FC2446100A5DD31 /* giphy.png in Resources */,
+				8CCA270A1FC249C600A5DD31 /* Launch Screen.storyboard in Resources */,
+				8C1A76F41FBD038700A5574D /* giphy.gif in Resources */,
+				8C7ED8F21FC4835B00508CBF /* 3.png in Resources */,
+				8CA7E0B81FBDF8D500060062 /* Group 3.png in Resources */,
+				8CA7E0BC1FBDFBCE00060062 /* Meteor Showermenu@1x.png in Resources */,
+				8C7ED8F11FC4835B00508CBF /* 1.png in Resources */,
+				8CA7E0C81FBE059700060062 /* iOS 11 Beta Icon 3 - 1024 pixel fullview.png in Resources */,
+				8C1A77081FBD074900A5574D /* space background.gif in Resources */,
+				8CCA27081FC2455E00A5DD31 /* space background.jpg in Resources */,
 				8C1A76C71FBD037600A5574D /* Assets.xcassets in Resources */,
+				8CA7E0C21FBE02E900060062 /* Dark.png in Resources */,
+				8CA7E0BE1FBDFCCC00060062 /* Slider_ Volume_ Dark.png in Resources */,
+				8C7ED8F31FC4835B00508CBF /* 5.png in Resources */,
+				8CCA270C1FC24FD200A5DD31 /* Meteor Shower.jpg in Resources */,
+				8CA7E0C61FBE043400060062 /* Layer  3.png in Resources */,
+				8C7ED8ED1FC4835B00508CBF /* 2.png in Resources */,
+				8CA7E0B41FBDF02D00060062 /* Meteor Showermenu.jpg in Resources */,
+				8CA7E0B91FBDF8D500060062 /* Group 2.png in Resources */,
+				8CA7E0BA1FBDF8D500060062 /* Custom Picker Dark.png in Resources */,
+				8C8C8C6C1FBD29F4000BA90D /* 1080x1920-Space-background.png in Resources */,
 				8C1A76C51FBD037600A5574D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C1A76C21FBD037600A5574D /* ViewController.m in Sources */,
+				8C1A76C21FBD037600A5574D /*  ViewController.m in Sources */,
 				8C1A76CD1FBD037600A5574D /* main.m in Sources */,
 				8C1A76BF1FBD037600A5574D /* AppDelegate.m in Sources */,
 			);
@@ -309,14 +435,6 @@
 				8C1A76C41FBD037600A5574D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8C1A76C81FBD037600A5574D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C1A76C91FBD037600A5574D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -430,11 +548,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EG39F3S7VH;
 				INFOPLIST_FILE = "Meatier Shower/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.Meatier-Shower";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.Meteor-Shower";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -443,11 +565,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EG39F3S7VH;
 				INFOPLIST_FILE = "Meatier Shower/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.Meatier-Shower";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.Meteor-Shower";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -7,9 +7,31 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AudioToolbox/AudioToolbox.h"
+@interface ViewController : UIViewController{
+    
+    IBOutlet UIImageView *spaceship;
+    IBOutlet UIImageView *rock;
+    IBOutlet UIImageView *fire;
+    IBOutlet UIImageView *explod;
+    IBOutlet UILabel *gameover;
+    IBOutlet UILabel *liveslabel;
+    IBOutlet UILabel *scorelabel;
+    IBOutlet UIButton*startbutton;
+   
+    
+    UITouch *touch;
+    
+    NSString *livestring;
+    NSString *scorestring;
+    
+    NSTimer *rockMovemntTimer;
+    NSTimer *fireMovmentTimer;
+    
+    
+}
 
-@interface ViewController : UIViewController
-
+-(IBAction)startGame:(id)sender;
 
 @end
 
