@@ -106,26 +106,6 @@
             </objects>
             <point key="canvasLocation" x="195.5" y="-278"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="meB-QJ-xs3">
-            <objects>
-                <viewController id="sON-NX-ILE" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="jX8-Wz-PZC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="he3-GR-Nsu" customClass="spac">
-                                <rect key="frame" x="0.0" y="0.0" width="405" height="778"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="anH-2a-p4a" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="779.5" y="-338"/>
-        </scene>
     </scenes>
     <resources>
         <image name="8.png" width="68" height="68"/>
