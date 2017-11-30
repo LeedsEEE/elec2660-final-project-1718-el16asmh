@@ -13,10 +13,22 @@
 @end
 
 @implementation ResultViewController
-@synthesize scoreLabel,highscoreLabel;
+@synthesize scoreLabel,highscoreLabel,score;
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+ 
+    [scoreLabel setText:[NSString stringWithFormat:@"%d", score]];
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSInteger highScore = [userDefaults integerForKey:@"HIGH_SCORE"];
+    
+    // Update HighScore
+    if (score > highScore) {
+        [userDefaults setInteger:score forKey:@"HIGH_SCORE"];
+        [highscoreLabel setText:[NSString stringWithFormat:@"High Score : %d", score]];
+        
+    } else {
+        [highscoreLabel setText:[NSString stringWithFormat:@"High Score : %ld", highScore]];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

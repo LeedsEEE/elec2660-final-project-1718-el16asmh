@@ -56,6 +56,9 @@
 		8CCA27081FC2455E00A5DD31 /* space background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA27071FC2455E00A5DD31 /* space background.jpg */; };
 		8CCA270A1FC249C600A5DD31 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA27091FC249C600A5DD31 /* Launch Screen.storyboard */; };
 		8CCA270C1FC24FD200A5DD31 /* Meteor Shower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CCA270B1FC24FD100A5DD31 /* Meteor Shower.jpg */; };
+		8CDE9D981FCF98B800819D9D /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CDE9D961FCF98B700819D9D /* hit.wav */; };
+		8CDE9D991FCF98B800819D9D /* over.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CDE9D971FCF98B800819D9D /* over.wav */; };
+		8CDE9D9B1FCFBF7D00819D9D /* MyVeryOwnDeadShip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CDE9D9A1FCFBF7D00819D9D /* MyVeryOwnDeadShip.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +138,9 @@
 		8CCA27071FC2455E00A5DD31 /* space background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "space background.jpg"; sourceTree = SOURCE_ROOT; };
 		8CCA27091FC249C600A5DD31 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8CCA270B1FC24FD100A5DD31 /* Meteor Shower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Meteor Shower.jpg"; sourceTree = "<group>"; };
+		8CDE9D961FCF98B700819D9D /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit.wav; sourceTree = "<group>"; };
+		8CDE9D971FCF98B800819D9D /* over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = over.wav; sourceTree = "<group>"; };
+		8CDE9D9A1FCFBF7D00819D9D /* MyVeryOwnDeadShip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MyVeryOwnDeadShip.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +176,9 @@
 				8C1A76D51FBD037600A5574D /* Meatier ShowerTests */,
 				8C1A76E01FBD037600A5574D /* Meatier ShowerUITests */,
 				8C1A76BB1FBD037600A5574D /* Products */,
+				8CDE9D9A1FCFBF7D00819D9D /* MyVeryOwnDeadShip.wav */,
+				8CDE9D961FCF98B700819D9D /* hit.wav */,
+				8CDE9D971FCF98B800819D9D /* over.wav */,
 				8C73EA3B1FCDFD7200178E56 /* 1_rock.png */,
 				8C73EA3A1FCDFD7100178E56 /* 2_rock.png */,
 				8C73EA381FCDFD7100178E56 /* 3_rock.png */,
@@ -374,6 +383,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CDE9D981FCF98B800819D9D /* hit.wav in Resources */,
 				8C73EA3F1FCDFD7200178E56 /* 3_rock.png in Resources */,
 				8C7ED8F71FC51D1000508CBF /* 8.png in Resources */,
 				8C1A77021FBD05D700A5574D /* Stars  Space Effect Background .mp4 in Resources */,
@@ -381,6 +391,7 @@
 				8C7ED8EF1FC4835B00508CBF /* 7.png in Resources */,
 				8CA7E0C01FBDFF0700060062 /* Artboard 1.png in Resources */,
 				8C7ED8F01FC4835B00508CBF /* 6.png in Resources */,
+				8CDE9D991FCF98B800819D9D /* over.wav in Resources */,
 				8C1A77061FBD05E600A5574D /* spaceship.png in Resources */,
 				8C7ED8EE1FC4835B00508CBF /* 4.png in Resources */,
 				8C1A77041FBD05DB00A5574D /* shoot.png in Resources */,
@@ -401,6 +412,7 @@
 				8CCA27081FC2455E00A5DD31 /* space background.jpg in Resources */,
 				8C1A76C71FBD037600A5574D /* Assets.xcassets in Resources */,
 				8C73EA351FCDFCE000178E56 /* 9_rock.png in Resources */,
+				8CDE9D9B1FCFBF7D00819D9D /* MyVeryOwnDeadShip.wav in Resources */,
 				8CA7E0C21FBE02E900060062 /* Dark.png in Resources */,
 				8C73EA3E1FCDFD7200178E56 /* 7_rock.png in Resources */,
 				8C73EA421FCDFD7200178E56 /* 1_rock.png in Resources */,
@@ -607,7 +619,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.Meteor-Shower";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -624,7 +636,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.Meteor-Shower";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AudioToolbox/AudioToolbox.h"
+#import <AVFoundation/AVFoundation.h>
 @interface ViewController : UIViewController{
     
     IBOutlet UIImageView *spaceship;
