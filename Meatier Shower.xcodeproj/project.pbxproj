@@ -19,6 +19,12 @@
 		8C1A77041FBD05DB00A5574D /* shoot.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1A77031FBD05DB00A5574D /* shoot.png */; };
 		8C1A77061FBD05E600A5574D /* spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C1A77051FBD05E600A5574D /* spaceship.png */; };
 		8C1A77081FBD074900A5574D /* space background.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8C1A77071FBD074900A5574D /* space background.gif */; };
+		8C2E19601FD118D9008F3FB7 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2E195F1FD118D8008F3FB7 /* button.png */; };
+		8C2E19621FD11C02008F3FB7 /* bottom_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2E19611FD11C01008F3FB7 /* bottom_yellow.png */; };
+		8C2E19651FD11DDD008F3FB7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2E19641FD11DDD008F3FB7 /* FirstViewController.m */; };
+		8C2E19671FD1215D008F3FB7 /* Meteor Shower-bacjground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2E19661FD1215C008F3FB7 /* Meteor Shower-bacjground.png */; };
+		8C2E196A1FD1956E008F3FB7 /* ExitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2E19691FD1956E008F3FB7 /* ExitViewController.m */; };
+		8C3B51AA1FD44AF200DB90E4 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B51A91FD44AF200DB90E4 /* OptionsViewController.m */; };
 		8C73EA1F1FCDE61900178E56 /* background.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8C73EA1E1FCDE61800178E56 /* background.mov */; };
 		8C73EA331FCDFCE000178E56 /* 10_rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C73EA301FCDFCE000178E56 /* 10_rock.png */; };
 		8C73EA341FCDFCE000178E56 /* 8_rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C73EA311FCDFCE000178E56 /* 8_rock.png */; };
@@ -99,6 +105,15 @@
 		8C1A77031FBD05DB00A5574D /* shoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoot.png; sourceTree = "<group>"; };
 		8C1A77051FBD05E600A5574D /* spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceship.png; sourceTree = "<group>"; };
 		8C1A77071FBD074900A5574D /* space background.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "space background.gif"; sourceTree = "<group>"; };
+		8C2E195F1FD118D8008F3FB7 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		8C2E19611FD11C01008F3FB7 /* bottom_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_yellow.png; sourceTree = "<group>"; };
+		8C2E19631FD11DDD008F3FB7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8C2E19641FD11DDD008F3FB7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8C2E19661FD1215C008F3FB7 /* Meteor Shower-bacjground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Meteor Shower-bacjground.png"; sourceTree = "<group>"; };
+		8C2E19681FD1956E008F3FB7 /* ExitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExitViewController.h; sourceTree = "<group>"; };
+		8C2E19691FD1956E008F3FB7 /* ExitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExitViewController.m; sourceTree = "<group>"; };
+		8C3B51A81FD44AF200DB90E4 /* OptionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		8C3B51A91FD44AF200DB90E4 /* OptionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
 		8C73EA1E1FCDE61800178E56 /* background.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = background.mov; sourceTree = "<group>"; };
 		8C73EA301FCDFCE000178E56 /* 10_rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10_rock.png; path = "space /10_rock.png"; sourceTree = "<group>"; };
 		8C73EA311FCDFCE000178E56 /* 8_rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8_rock.png; path = "space /8_rock.png"; sourceTree = "<group>"; };
@@ -176,6 +191,9 @@
 				8C1A76D51FBD037600A5574D /* Meatier ShowerTests */,
 				8C1A76E01FBD037600A5574D /* Meatier ShowerUITests */,
 				8C1A76BB1FBD037600A5574D /* Products */,
+				8C2E19661FD1215C008F3FB7 /* Meteor Shower-bacjground.png */,
+				8C2E19611FD11C01008F3FB7 /* bottom_yellow.png */,
+				8C2E195F1FD118D8008F3FB7 /* button.png */,
 				8CDE9D9A1FCFBF7D00819D9D /* MyVeryOwnDeadShip.wav */,
 				8CDE9D961FCF98B700819D9D /* hit.wav */,
 				8CDE9D971FCF98B800819D9D /* over.wav */,
@@ -243,6 +261,12 @@
 				8C73EA441FCE64A000178E56 /* ResultViewController.h */,
 				8C73EA451FCE64A000178E56 /* ResultViewController.m */,
 				8C1A76C31FBD037600A5574D /* Main.storyboard */,
+				8C3B51A81FD44AF200DB90E4 /* OptionsViewController.h */,
+				8C3B51A91FD44AF200DB90E4 /* OptionsViewController.m */,
+				8C2E19681FD1956E008F3FB7 /* ExitViewController.h */,
+				8C2E19691FD1956E008F3FB7 /* ExitViewController.m */,
+				8C2E19631FD11DDD008F3FB7 /* FirstViewController.h */,
+				8C2E19641FD11DDD008F3FB7 /* FirstViewController.m */,
 				8CCA27091FC249C600A5DD31 /* Launch Screen.storyboard */,
 				8C1A76C61FBD037600A5574D /* Assets.xcassets */,
 				8C1A76CB1FBD037600A5574D /* Info.plist */,
@@ -412,8 +436,10 @@
 				8CCA27081FC2455E00A5DD31 /* space background.jpg in Resources */,
 				8C1A76C71FBD037600A5574D /* Assets.xcassets in Resources */,
 				8C73EA351FCDFCE000178E56 /* 9_rock.png in Resources */,
+				8C2E19601FD118D9008F3FB7 /* button.png in Resources */,
 				8CDE9D9B1FCFBF7D00819D9D /* MyVeryOwnDeadShip.wav in Resources */,
 				8CA7E0C21FBE02E900060062 /* Dark.png in Resources */,
+				8C2E19621FD11C02008F3FB7 /* bottom_yellow.png in Resources */,
 				8C73EA3E1FCDFD7200178E56 /* 7_rock.png in Resources */,
 				8C73EA421FCDFD7200178E56 /* 1_rock.png in Resources */,
 				8CA7E0BE1FBDFCCC00060062 /* Slider_ Volume_ Dark.png in Resources */,
@@ -428,6 +454,7 @@
 				8C73EA341FCDFCE000178E56 /* 8_rock.png in Resources */,
 				8C8C8C6C1FBD29F4000BA90D /* 1080x1920-Space-background.png in Resources */,
 				8C1A76C51FBD037600A5574D /* Main.storyboard in Resources */,
+				8C2E19671FD1215D008F3FB7 /* Meteor Shower-bacjground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,10 +479,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C2E196A1FD1956E008F3FB7 /* ExitViewController.m in Sources */,
 				8C1A76C21FBD037600A5574D /*  ViewController.m in Sources */,
 				8C1A76CD1FBD037600A5574D /* main.m in Sources */,
+				8C2E19651FD11DDD008F3FB7 /* FirstViewController.m in Sources */,
 				8C1A76BF1FBD037600A5574D /* AppDelegate.m in Sources */,
 				8C73EA461FCE64A000178E56 /* ResultViewController.m in Sources */,
+				8C3B51AA1FD44AF200DB90E4 /* OptionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
