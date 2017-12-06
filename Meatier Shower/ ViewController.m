@@ -17,6 +17,7 @@
 
 #import "ViewController.h"
 #import "ResultViewController.h"
+#define kUpdateInterval (1.0f / 60.0f)
 @import MediaPlayer;
    //https://medium.com/@kschaller/ios-video-backgrounds-6eead788f190
 @interface ViewController ()
@@ -38,14 +39,29 @@ AVAudioPlayer *hitSound;
 AVAudioPlayer *bulletSound;
 AVAudioPlayer *backgroundmusic;
 
-@implementation ViewController
+@implementation ViewController :UIViewController
     // hide statues bar
     //https://stackoverflow.com/questions/33541525/prefersstatusbarhidden-not-called
 - (BOOL)prefersStatusBarHidden{return YES;}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
+    // Accelerometer
+    /*
+    currentMaxAccelX = 0;
+    ;
+    self.motionManager = [[CMMotionManager alloc] init];
+     self.motionManager.accelerometerUpdateInterval = kUpdateInterval;
+    [self.motionManager startAccelerometerUpdatesToQueue:[NSOperationQueue currentQueue]
+                                             withHandler:^(CMAccelerometerData  *accelerometerData, NSError *error) {
+                                                 [self outputAccelertionData:accelerometerData.acceleration];
+                                                 if(error){
+                                                     
+                                                     NSLog(@"%@", error);
+                                                 }
+                                             }];*/
+    
     
     // Load the video from the app bundle.
     NSURL *videoURL = [[NSBundle mainBundle] URLForResource:@"background" withExtension:@"mov"];
@@ -138,7 +154,14 @@ AVAudioPlayer *backgroundmusic;
     [self positionrock]; //send it to the void  positionrock to get updates about the rock position
     
 }
-
+/*
+// accelemtoer
+-(void)outputAccelertionData:(CMAcceleration)acceleration
+{
+   
+    spaceship.center = CGPointMake(acceleration.x *200, spaceship.center.y);
+    
+}*/
 
 -(void)touchesbegan:(NSSet *)touches withEvent:(UIEvent *)event{
     
@@ -166,6 +189,8 @@ AVAudioPlayer *backgroundmusic;
     //https://developer.apple.com/documentation/foundation/nstimer/1412416-scheduledtimerwithtimeinterval?language=objc
     fireMovmentTimer = [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(fireMovement) userInfo:nil repeats:YES];
 }
+
+
 
 
 -(void)positionrock {
@@ -218,6 +243,7 @@ AVAudioPlayer *backgroundmusic;
     rockAttack = arc4random() %20;
     
     [self performSelector:@selector(rockMovementTimerMethid) withObject:nil afterDelay:rockAttack];
+    
     }
 
 - (void)rockMovementTimerMethid {
@@ -269,7 +295,6 @@ AVAudioPlayer *backgroundmusic;
     
     // detect if two images colide
     if (CGRectIntersectsRect(fire.frame, rock.frame)) {
-      
     // give location
         explod.center = CGPointMake(rock.center.x, rock.center.y);
     // sound effect
@@ -290,10 +315,11 @@ AVAudioPlayer *backgroundmusic;
          explod.animationDuration = 0.50;
         [explod setAnimationRepeatCount:1];
         [explod startAnimating]; // start the animation
-        // show the animation view
+        
+    // show the animation view
         explod.hidden = YES;
         
-   // [explod performSelector:@selector(setImage:) withObject:transparent afterDelay:[explod animationDuration]];
+
     
    // add + 5 to score
         score = score + 5;
@@ -356,39 +382,7 @@ AVAudioPlayer *backgroundmusic;
 
 @end
 
-/*
- -(void)replayGame{
- 
- //Hidden Images
- spaceship.hidden = YES;
- rock.hidden= YES;
- fire.hidden= YES;
- 
- //Hidden lavel
- liveslabel.hidden = YES;
- scorelabel.hidden = YES;
- 
- // set score and lives
- score = 0;
- lives = 3;
- 
- //strings
- scorestring =[NSString stringWithFormat:@"Score: 0"];
- livestring = [NSString stringWithFormat:@"Lives: 3"];
- 
- //intial text label
- scorelabel.text = scorestring;
- liveslabel.text = livestring;
- 
- //starting position of images
- spaceship.center = CGPointMake(140, 650);
- rock.center = CGPointMake(140, -40);
- fire.center =CGPointMake(spaceship.center.x, spaceship.center.y);
- 
- [fireMovmentTimer invalidate];
- //[self performSelector:@selector(startGame:) withObject:nil afterDelay:3];
- [self showresult];
- }/*/
+// Refrances
 
 //https://www.youtube.com/watch?v=czWDhD-3jIE
 //https://www.youtube.com/watch?v=AqxTRhU1SdQ

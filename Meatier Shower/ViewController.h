@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
 #import "AudioToolbox/AudioToolbox.h"
 #import <AVFoundation/AVFoundation.h>
+
+
+
+double currentMaxAccelX;
+double currentMaxRotX;
+
 @interface ViewController : UIViewController{
     
     IBOutlet UIImageView *spaceship;
@@ -19,8 +26,10 @@
     IBOutlet UILabel *liveslabel;
     IBOutlet UILabel *scorelabel;
     IBOutlet UIButton*startbutton;
-   
     
+    
+   
+    //touch screen
     UITouch *touch;
     
     NSString *livestring;
@@ -33,6 +42,6 @@
 }
 
 -(IBAction)startGame:(id)sender;
-
+@property (strong, nonatomic) CMMotionManager *motionManager;
 @end
 

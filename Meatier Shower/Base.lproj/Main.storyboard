@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,47 +27,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" id="dDr-ti-2fe">
-                                <rect key="frame" x="78" y="379" width="218" height="55"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bk.png" id="esa-yy-I6u">
+                                <rect key="frame" x="0.0" y="-9" width="375" height="821"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
-                                <state key="normal" title="HIGH SCORE" backgroundImage="button.png">
-                                    <color key="titleColor" red="0.98134634160000001" green="1" blue="0.97824726890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Uui-6q-rfi" kind="modal" id="z2i-gl-n9Z"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" id="Cwn-B3-ZLD">
-                                <rect key="frame" x="78" y="258" width="218" height="55"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" id="apy-Jg-aXI">
+                                <rect key="frame" x="0.0" y="348" width="375" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
-                                <state key="normal" title="PLAY GAME" backgroundImage="button.png">
-                                    <color key="titleColor" red="0.98134634160000001" green="1" blue="0.97824726890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                                <size key="titleShadowOffset" width="4" height="0.0"/>
+                                <state key="normal" image="play.png"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="flipHorizontal" id="zge-bb-oBa"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" id="hQS-sz-v83">
-                                <rect key="frame" x="78" y="442" width="218" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
-                                <state key="normal" title="EXIT" backgroundImage="bottom_yellow.png">
-                                    <color key="titleColor" red="0.98134634160000001" green="1" blue="0.97824726890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Eaf-Pe-ccx" kind="modal" modalTransitionStyle="crossDissolve" id="ZnL-DI-7Qh"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="HYA-eL-v2V"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" id="Nc3-YV-sKi">
-                                <rect key="frame" x="78" y="321" width="218" height="55"/>
+                                <rect key="frame" x="67" y="614" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
-                                <state key="normal" title="OPTIONS" backgroundImage="button.png">
+                                <state key="normal" backgroundImage="settings.png">
                                     <color key="titleColor" red="0.98134634160000001" green="1" blue="0.97824726890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -74,13 +52,54 @@
                                     <segue destination="MhW-9o-eoN" kind="modal" modalTransitionStyle="crossDissolve" id="SPL-Yq-cbX"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" id="dDr-ti-2fe">
+                                <rect key="frame" x="130" y="614" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                                <state key="normal" backgroundImage="star.png">
+                                    <color key="titleColor" red="0.98134634160000001" green="1" blue="0.97824726890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Uui-6q-rfi" kind="modal" id="z2i-gl-n9Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" id="hQS-sz-v83">
+                                <rect key="frame" x="256" y="614" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" backgroundImage="close.png">
+                                    <color key="titleColor" red="0.98134634160000001" green="1" blue="0.97824726890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Eaf-Pe-ccx" kind="modal" modalTransitionStyle="crossDissolve" id="ZnL-DI-7Qh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" id="0ru-1l-bLY">
+                                <rect key="frame" x="193" y="614" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" backgroundImage="share.png">
+                                    <color key="titleColor" red="0.98134634160000001" green="1" blue="0.97824726890000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="1_meteor.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" id="lZY-4q-hDa">
+                                <rect key="frame" x="120" y="60" width="240" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="meteor" destination="lZY-4q-hDa" id="upN-UO-Lbm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n8b-pb-grq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-511" y="211"/>
+            <point key="canvasLocation" x="-511.5" y="211"/>
         </scene>
         <!--Exit View Controller-->
         <scene sceneID="Kcx-jx-UDH">
@@ -215,7 +234,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="spaceship.png" id="Ld5-ef-xdt">
-                                <rect key="frame" x="142" y="620" width="90" height="100"/>
+                                <rect key="frame" x="334" y="602" width="90" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -302,15 +321,20 @@
         </scene>
     </scenes>
     <resources>
+        <image name="1_meteor.png" width="479" height="476"/>
         <image name="8.png" width="68" height="68"/>
-        <image name="bottom_yellow.png" width="435" height="105"/>
-        <image name="button.png" width="435" height="105"/>
+        <image name="bk.png" width="1125" height="2436"/>
+        <image name="close.png" width="72" height="76"/>
         <image name="giphy.png" width="480" height="345"/>
+        <image name="play.png" width="1125" height="587"/>
+        <image name="settings.png" width="72" height="76"/>
+        <image name="share.png" width="72" height="76"/>
         <image name="shoot.png" width="320" height="430"/>
         <image name="spaceship.png" width="512" height="512"/>
+        <image name="star.png" width="72" height="76"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="zge-bb-oBa"/>
+        <segue reference="HYA-eL-v2V"/>
         <segue reference="pbi-JQ-CDM"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.05096948892" green="0.050986640159999999" blue="0.050968408579999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

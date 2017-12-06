@@ -14,6 +14,10 @@
 
 @implementation ResultViewController
 @synthesize scoreLabel,highscoreLabel,score;
+// hide statues bar
+//https://stackoverflow.com/questions/33541525/prefersstatusbarhidden-not-called
+- (BOOL)prefersStatusBarHidden{return YES;}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
  
