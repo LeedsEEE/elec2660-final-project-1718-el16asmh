@@ -19,6 +19,20 @@
         </array>
     </customFonts>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="7nl-K1-e68">
+            <objects>
+                <viewController id="KCX-Y7-kz9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JzO-06-xaH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d6e-SE-veX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1742" y="56"/>
+        </scene>
         <!--First View Controller-->
         <scene sceneID="iar-wH-cwf">
             <objects>
@@ -99,7 +113,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n8b-pb-grq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1233" y="196"/>
+            <point key="canvasLocation" x="-1260" y="56"/>
         </scene>
         <!--Exit View Controller-->
         <scene sceneID="Kcx-jx-UDH">
@@ -360,7 +374,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3nq-Xa-6gj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="685" y="-404"/>
+            <point key="canvasLocation" x="629" y="-404"/>
         </scene>
         <!--Control View Controller-->
         <scene sceneID="567-aE-Yzr">
@@ -524,7 +538,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zLq-Oh-fmf" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-23" y="-1407"/>
+            <point key="canvasLocation" x="-22" y="-1369"/>
         </scene>
     </scenes>
     <resources>
@@ -549,8 +563,8 @@
         <image name="tilttosteer.png" width="639" height="900"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Pj2-CW-fqS"/>
-        <segue reference="Az9-y8-Ltc"/>
+        <segue reference="qqe-wj-HnG"/>
+        <segue reference="aVh-jk-qa6"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.05096948892" green="0.050986640159999999" blue="0.050968408579999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
