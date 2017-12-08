@@ -55,8 +55,9 @@
 		8C9E91B91FDA710400944B4D /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91B81FDA710300944B4D /* back.png */; };
 		8C9E91BC1FDA79AE00944B4D /* AccelerometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E91BB1FDA79AE00944B4D /* AccelerometerViewController.m */; };
 		8C9E91C01FDA9D6A00944B4D /* taptosteer.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91BF1FDA9D6900944B4D /* taptosteer.png */; };
-		8C9E91C21FDA9D7000944B4D /* tilttosteer.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91C11FDA9D6F00944B4D /* tilttosteer.png */; };
 		8C9E91C51FDAA22D00944B4D /* controlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E91C41FDAA22D00944B4D /* controlViewController.m */; };
+		8C9E91C71FDAA76200944B4D /* iphone_x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91C61FDAA76100944B4D /* iphone_x.jpg */; };
+		8C9E91C91FDAA81F00944B4D /* tilttosteer.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91C81FDAA81E00944B4D /* tilttosteer.png */; };
 		8CA3C1B31FC3CCF500512EA8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA3C1B21FC3CCE900512EA8 /* AudioToolbox.framework */; };
 		8CA7E0C01FBDFF0700060062 /* Artboard 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7E0BF1FBDFF0600060062 /* Artboard 1.png */; };
 		8CA7E0C81FBE059700060062 /* iOS 11 Beta Icon 3 - 1024 pixel fullview.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7E0C71FBE059700060062 /* iOS 11 Beta Icon 3 - 1024 pixel fullview.png */; };
@@ -162,9 +163,10 @@
 		8C9E91BA1FDA79AE00944B4D /* AccelerometerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccelerometerViewController.h; sourceTree = "<group>"; };
 		8C9E91BB1FDA79AE00944B4D /* AccelerometerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccelerometerViewController.m; sourceTree = "<group>"; };
 		8C9E91BF1FDA9D6900944B4D /* taptosteer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taptosteer.png; sourceTree = "<group>"; };
-		8C9E91C11FDA9D6F00944B4D /* tilttosteer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tilttosteer.png; sourceTree = "<group>"; };
 		8C9E91C31FDAA22D00944B4D /* controlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = controlViewController.h; sourceTree = "<group>"; };
 		8C9E91C41FDAA22D00944B4D /* controlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = controlViewController.m; sourceTree = "<group>"; };
+		8C9E91C61FDAA76100944B4D /* iphone_x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone_x.jpg; sourceTree = "<group>"; };
+		8C9E91C81FDAA81E00944B4D /* tilttosteer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tilttosteer.png; path = ../../../Desktop/tilttosteer.png; sourceTree = "<group>"; };
 		8CA3C1B21FC3CCE900512EA8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		8CA7E0BF1FBDFF0600060062 /* Artboard 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 1.png"; sourceTree = "<group>"; };
 		8CA7E0C71FBE059700060062 /* iOS 11 Beta Icon 3 - 1024 pixel fullview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS 11 Beta Icon 3 - 1024 pixel fullview.png"; sourceTree = "<group>"; };
@@ -229,8 +231,9 @@
 				8C1A76D51FBD037600A5574D /* Meatier ShowerTests */,
 				8C1A76E01FBD037600A5574D /* Meatier ShowerUITests */,
 				8C1A76BB1FBD037600A5574D /* Products */,
+				8C9E91C61FDAA76100944B4D /* iphone_x.jpg */,
+				8C9E91C81FDAA81E00944B4D /* tilttosteer.png */,
 				8C9E91BF1FDA9D6900944B4D /* taptosteer.png */,
-				8C9E91C11FDA9D6F00944B4D /* tilttosteer.png */,
 				8C9E91B81FDA710300944B4D /* back.png */,
 				8C9E91B61FDA6F4E00944B4D /* background_score.jpg */,
 				8C9E91AF1FDA6BD600944B4D /* repeat.png */,
@@ -516,6 +519,7 @@
 				8C73EA351FCDFCE000178E56 /* 9_rock.png in Resources */,
 				8CDE9D9B1FCFBF7D00819D9D /* MyVeryOwnDeadShip.wav in Resources */,
 				8C73EA3E1FCDFD7200178E56 /* 7_rock.png in Resources */,
+				8C9E91C71FDAA76200944B4D /* iphone_x.jpg in Resources */,
 				8CB779011FD7260200E3B7DA /* 8_meteor.png in Resources */,
 				8C73EA421FCDFD7200178E56 /* 1_rock.png in Resources */,
 				8C9E91C01FDA9D6A00944B4D /* taptosteer.png in Resources */,
@@ -523,8 +527,8 @@
 				8CB778941FD5043400E3B7DA /* play.png in Resources */,
 				8C73EA411FCDFD7200178E56 /* 2_rock.png in Resources */,
 				8C7ED8F31FC4835B00508CBF /* 5.png in Resources */,
+				8C9E91C91FDAA81F00944B4D /* tilttosteer.png in Resources */,
 				8CCA270C1FC24FD200A5DD31 /* Meteor Shower.jpg in Resources */,
-				8C9E91C21FDA9D7000944B4D /* tilttosteer.png in Resources */,
 				8C7ED8ED1FC4835B00508CBF /* 2.png in Resources */,
 				8C73EA341FCDFCE000178E56 /* 8_rock.png in Resources */,
 				8C328D701FD4FD4200C5DE70 /* settings.png in Resources */,
