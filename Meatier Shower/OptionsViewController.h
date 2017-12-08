@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@interface OptionsViewController : UIViewController {
+    
+    }
+@property (nonatomic,strong) IBOutlet UIView* volumeView;
 
-@interface OptionsViewController : UIViewController
+
+
+
 
 @end

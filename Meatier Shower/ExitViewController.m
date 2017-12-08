@@ -41,7 +41,7 @@
 {
     //show confirmation message to user
     UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"EXIT GAME"
-                                                    message:@"Are You Sure You want to  exit?"
+                                                    message:@""
                                                    delegate:self
                                           cancelButtonTitle:@"Cancel"
                                           otherButtonTitles:@"OK", nil];

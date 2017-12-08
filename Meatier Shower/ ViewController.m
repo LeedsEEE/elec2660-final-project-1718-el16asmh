@@ -17,10 +17,13 @@
 
 #import "ViewController.h"
 #import "ResultViewController.h"
+
+
 #define kUpdateInterval (1.0f / 60.0f)
 @import MediaPlayer;
    //https://medium.com/@kschaller/ios-video-backgrounds-6eead788f190
 @interface ViewController ()
+
 @property (strong, nonatomic) MPMoviePlayerController *moviePlayer;
 @end
 
@@ -37,9 +40,10 @@ UILabel *scoreLabel;
 
 AVAudioPlayer *hitSound;
 AVAudioPlayer *bulletSound;
-AVAudioPlayer *backgroundmusic;
+
 
 @implementation ViewController :UIViewController
+
     // hide statues bar
     //https://stackoverflow.com/questions/33541525/prefersstatusbarhidden-not-called
 - (BOOL)prefersStatusBarHidden{return YES;}
@@ -48,7 +52,7 @@ AVAudioPlayer *backgroundmusic;
     [super viewDidLoad];
    
     // Accelerometer
-    /*
+  
     currentMaxAccelX = 0;
     ;
     self.motionManager = [[CMMotionManager alloc] init];
@@ -60,7 +64,7 @@ AVAudioPlayer *backgroundmusic;
                                                      
                                                      NSLog(@"%@", error);
                                                  }
-                                             }];*/
+                                             }];
     
     
     // Load the video from the app bundle.
@@ -85,17 +89,16 @@ AVAudioPlayer *backgroundmusic;
 
     NSURL *okURL = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/hit.wav", [[NSBundle mainBundle] resourcePath]]];
     NSURL *ngURL = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/over.wav", [[NSBundle mainBundle] resourcePath]]];
-    NSURL *bgURL = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/MyVeryOwnDeadShip.wav", [[NSBundle mainBundle] resourcePath]]];
+
 
     
     hitSound = [[AVAudioPlayer alloc] initWithContentsOfURL:okURL error:nil];
     bulletSound = [[AVAudioPlayer alloc] initWithContentsOfURL:ngURL error:nil];
-    backgroundmusic = [[AVAudioPlayer alloc] initWithContentsOfURL:bgURL error:nil];
-    [backgroundmusic play];
+ 
 }
 - (void)loopVideo {
     [self.moviePlayer play];
-    [backgroundmusic play];
+  
 }
 
 
@@ -139,9 +142,11 @@ AVAudioPlayer *backgroundmusic;
 }
 
 -(IBAction)startGame:(id)sender {
+   
     //hide start and explosion 
     startbutton.hidden = YES;
     explod.hidden = YES;
+   
     //show images
     spaceship.hidden = NO;
     rock.hidden = NO;
@@ -154,15 +159,17 @@ AVAudioPlayer *backgroundmusic;
     [self positionrock]; //send it to the void  positionrock to get updates about the rock position
     
 }
-/*
-// accelemtoer
+
+// Accelemtoer
 -(void)outputAccelertionData:(CMAcceleration)acceleration
 {
-   
-    spaceship.center = CGPointMake(acceleration.x *200, spaceship.center.y);
-    
-}*/
+    NSLog(@"%f, %f", acceleration.x , acceleration.y );
+    spaceship.center = CGPointMake( ((acceleration.x/100)*34000)+147, spaceship.center.y);
+    //Equation calculated
+    NSLog(@"%f", ((acceleration.x/100)*34000)+147);
+}
 
+// Touch Screen
 -(void)touchesbegan:(NSSet *)touches withEvent:(UIEvent *)event{
     
 }
@@ -360,21 +367,29 @@ AVAudioPlayer *backgroundmusic;
     // Hide label
      liveslabel.hidden = YES;
      scorelabel.hidden = YES;
-   
+     
+   // pause sound effect
+     [hitSound stop];
+     [bulletSound stop];
+     
     // show result
     [self performSelector:@selector(showResult)withObject:nil afterDelay:1.0];
      
-    // pause sound effect
-     [hitSound pause];
-     [bulletSound pause];
+  
 
 }
 
 -(void)showResult {
-
+    
+    
+    
     ResultViewController *viewController;
     viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ResultViewController"];
     [viewController setScore:score];
+   
+    
+    
+   
     [self presentViewController:viewController animated:YES completion:nil];
     
 }

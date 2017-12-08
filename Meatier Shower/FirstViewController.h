@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OptionsViewController.h"
+#import "AudioToolbox/AudioToolbox.h"
+#import <AVFoundation/AVFoundation.h>
 
-@interface FirstViewController : UIViewController{
-    
-IBOutlet UIImageView *meteor;
-}
+
+@interface FirstViewController : UIViewController
+
+@property IBOutlet UIImageView *meteor;
+
 
 @end

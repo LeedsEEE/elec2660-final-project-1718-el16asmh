@@ -9,9 +9,10 @@
 #import "ResultViewController.h"
 
 @interface ResultViewController ()
+@property (nonatomic, retain) NSString *data;
 
 @end
-
+int highscorepath;
 @implementation ResultViewController
 @synthesize scoreLabel,highscoreLabel,score;
 // hide statues bar
@@ -24,6 +25,7 @@
     [scoreLabel setText:[NSString stringWithFormat:@"%d", score]];
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     NSInteger highScore = [userDefaults integerForKey:@"HIGH_SCORE"];
+    highscorepath = score;
     
     // Update HighScore
     if (score > highScore) {
@@ -33,6 +35,9 @@
     } else {
         [highscoreLabel setText:[NSString stringWithFormat:@"High Score : %ld", highScore]];
     }
+  
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

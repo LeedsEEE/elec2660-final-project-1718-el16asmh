@@ -7,25 +7,37 @@
 //
 
 #import "OptionsViewController.h"
-
+@import MediaPlayer;
 @interface OptionsViewController ()
 
 @end
 
-@implementation OptionsViewController
+
+
+@implementation OptionsViewController 
+
+
 // hide statues bar
 //https://stackoverflow.com/questions/33541525/prefersstatusbarhidden-not-called
 - (BOOL)prefersStatusBarHidden{return YES;}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    MPVolumeView *mpVolumeView = [[MPVolumeView alloc]initWithFrame:self.volumeView.bounds];
+    [self.volumeView addSubview:mpVolumeView];
+    [mpVolumeView sizeToFit];
+    
     // Do any additional setup after loading the view.
+  
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+    
 
 /*
 #pragma mark - Navigation
@@ -38,3 +50,5 @@
 */
 
 @end
+
+
