@@ -1,8 +1,8 @@
 //
-//  ViewController.h
+//  AccelerometerViewController.h
 //  Meatier Shower
 //
-//  Created by Ahmed Samir on 11/15/17.
+//  Created by Ahmed Samir on 12/8/17.
 //  Copyright © 2017 University of leeds. All rights reserved.
 //
 
@@ -11,11 +11,10 @@
 #import "AudioToolbox/AudioToolbox.h"
 #import <AVFoundation/AVFoundation.h>
 
+double currentMaxAccelX;
+double currentMaxRotX;
 
-
-
-@interface ViewController : UIViewController{
-    
+@interface AccelerometerViewController : UIViewController{
     IBOutlet UIImageView *spaceship;
     IBOutlet UIImageView *rock;
     IBOutlet UIImageView *fire;
@@ -26,7 +25,7 @@
     IBOutlet UIButton*startbutton;
     
     
-   
+    
     //touch screen
     UITouch *touch;
     
@@ -38,8 +37,6 @@
     
     
 }
-
 -(IBAction)startGame:(id)sender;
-
+@property (strong, nonatomic) CMMotionManager *motionManager;
 @end
-

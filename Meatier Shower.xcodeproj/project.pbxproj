@@ -20,11 +20,9 @@
 		8C2E19651FD11DDD008F3FB7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2E19641FD11DDD008F3FB7 /* FirstViewController.m */; };
 		8C2E19671FD1215D008F3FB7 /* Meteor Shower-bacjground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2E19661FD1215C008F3FB7 /* Meteor Shower-bacjground.png */; };
 		8C2E196A1FD1956E008F3FB7 /* ExitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2E19691FD1956E008F3FB7 /* ExitViewController.m */; };
-		8C328D6C1FD4FD4200C5DE70 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C328D671FD4FD4100C5DE70 /* share.png */; };
 		8C328D6D1FD4FD4200C5DE70 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C328D681FD4FD4100C5DE70 /* star.png */; };
 		8C328D6E1FD4FD4200C5DE70 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C328D691FD4FD4200C5DE70 /* close.png */; };
 		8C328D701FD4FD4200C5DE70 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C328D6B1FD4FD4200C5DE70 /* settings.png */; };
-		8C328D721FD4FF6C00C5DE70 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C328D711FD4FF6B00C5DE70 /* Untitled-1.png */; };
 		8C328D741FD4FFEF00C5DE70 /* bk.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C328D731FD4FFEF00C5DE70 /* bk.png */; };
 		8C3B51AA1FD44AF200DB90E4 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B51A91FD44AF200DB90E4 /* OptionsViewController.m */; };
 		8C73EA1F1FCDE61900178E56 /* background.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8C73EA1E1FCDE61800178E56 /* background.mov */; };
@@ -48,14 +46,18 @@
 		8C7ED8F31FC4835B00508CBF /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7ED8EC1FC4835B00508CBF /* 5.png */; };
 		8C7ED8F71FC51D1000508CBF /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7ED8F61FC4B4DB00508CBF /* 8.png */; };
 		8C9E919E1FD9F8FB00944B4D /* backgroundmainmenu.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E919D1FD9F8FB00944B4D /* backgroundmainmenu.mov */; };
-		8C9E91A31FDA3A4100944B4D /* BackGround  menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91A21FDA3A4000944B4D /* BackGround  menu.png */; };
-		8C9E91A51FDA3E2F00944B4D /* PixelArt.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91A41FDA3E2E00944B4D /* PixelArt.png */; };
-		8C9E91A71FDA414800944B4D /* bsetting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91A61FDA414600944B4D /* bsetting.jpg */; };
 		8C9E91A91FDA420000944B4D /* backgroundsetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91A81FDA41FF00944B4D /* backgroundsetting.png */; };
-		8C9E91AB1FDA641300944B4D /* backgroundscore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91AA1FDA641200944B4D /* backgroundscore.jpg */; };
-		8C9E91AD1FDA648000944B4D /* background_score.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91AC1FDA647E00944B4D /* background_score.jpg */; };
+		8C9E91B01FDA6BD800944B4D /* repeat.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91AF1FDA6BD600944B4D /* repeat.png */; };
+		8C9E91B11FDA6BFE00944B4D /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB7789F1FD5997300E3B7DA /* share.png */; };
+		8C9E91B31FDA6C1900944B4D /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91B21FDA6C1900944B4D /* share.png */; };
+		8C9E91B51FDA6C6C00944B4D /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91B41FDA6C6C00944B4D /* star.png */; };
+		8C9E91B71FDA6F4F00944B4D /* background_score.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91B61FDA6F4E00944B4D /* background_score.jpg */; };
+		8C9E91B91FDA710400944B4D /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91B81FDA710300944B4D /* back.png */; };
+		8C9E91BC1FDA79AE00944B4D /* AccelerometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E91BB1FDA79AE00944B4D /* AccelerometerViewController.m */; };
+		8C9E91C01FDA9D6A00944B4D /* taptosteer.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91BF1FDA9D6900944B4D /* taptosteer.png */; };
+		8C9E91C21FDA9D7000944B4D /* tilttosteer.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E91C11FDA9D6F00944B4D /* tilttosteer.png */; };
+		8C9E91C51FDAA22D00944B4D /* controlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E91C41FDAA22D00944B4D /* controlViewController.m */; };
 		8CA3C1B31FC3CCF500512EA8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA3C1B21FC3CCE900512EA8 /* AudioToolbox.framework */; };
-		8CA7E0B41FBDF02D00060062 /* Meteor Showermenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7E0B31FBDF02D00060062 /* Meteor Showermenu.jpg */; };
 		8CA7E0C01FBDFF0700060062 /* Artboard 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7E0BF1FBDFF0600060062 /* Artboard 1.png */; };
 		8CA7E0C81FBE059700060062 /* iOS 11 Beta Icon 3 - 1024 pixel fullview.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA7E0C71FBE059700060062 /* iOS 11 Beta Icon 3 - 1024 pixel fullview.png */; };
 		8CB778941FD5043400E3B7DA /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB778931FD5043300E3B7DA /* play.png */; };
@@ -122,11 +124,9 @@
 		8C2E19661FD1215C008F3FB7 /* Meteor Shower-bacjground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Meteor Shower-bacjground.png"; sourceTree = "<group>"; };
 		8C2E19681FD1956E008F3FB7 /* ExitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExitViewController.h; sourceTree = "<group>"; };
 		8C2E19691FD1956E008F3FB7 /* ExitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExitViewController.m; sourceTree = "<group>"; };
-		8C328D671FD4FD4100C5DE70 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
 		8C328D681FD4FD4100C5DE70 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		8C328D691FD4FD4200C5DE70 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		8C328D6B1FD4FD4200C5DE70 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
-		8C328D711FD4FF6B00C5DE70 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-1.png"; sourceTree = "<group>"; };
 		8C328D731FD4FFEF00C5DE70 /* bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bk.png; sourceTree = "<group>"; };
 		8C3B51A81FD44AF200DB90E4 /* OptionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
 		8C3B51A91FD44AF200DB90E4 /* OptionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
@@ -153,14 +153,19 @@
 		8C7ED8F61FC4B4DB00508CBF /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8.png; path = "/Users/Ahmedsamir/Documents/xcode/Meatier Shower/8.png"; sourceTree = "<absolute>"; };
 		8C7ED8F81FC5209200508CBF /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8.png; path = "/Users/Ahmedsamir/Documents/xcode/Meatier Shower/8.png"; sourceTree = "<absolute>"; };
 		8C9E919D1FD9F8FB00944B4D /* backgroundmainmenu.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = backgroundmainmenu.mov; sourceTree = "<group>"; };
-		8C9E91A21FDA3A4000944B4D /* BackGround  menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackGround  menu.png"; sourceTree = "<group>"; };
-		8C9E91A41FDA3E2E00944B4D /* PixelArt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PixelArt.png; sourceTree = "<group>"; };
-		8C9E91A61FDA414600944B4D /* bsetting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bsetting.jpg; sourceTree = "<group>"; };
 		8C9E91A81FDA41FF00944B4D /* backgroundsetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundsetting.png; sourceTree = "<group>"; };
-		8C9E91AA1FDA641200944B4D /* backgroundscore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundscore.jpg; sourceTree = "<group>"; };
-		8C9E91AC1FDA647E00944B4D /* background_score.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_score.jpg; sourceTree = "<group>"; };
+		8C9E91AF1FDA6BD600944B4D /* repeat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = repeat.png; sourceTree = "<group>"; };
+		8C9E91B21FDA6C1900944B4D /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		8C9E91B41FDA6C6C00944B4D /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		8C9E91B61FDA6F4E00944B4D /* background_score.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_score.jpg; sourceTree = "<group>"; };
+		8C9E91B81FDA710300944B4D /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		8C9E91BA1FDA79AE00944B4D /* AccelerometerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccelerometerViewController.h; sourceTree = "<group>"; };
+		8C9E91BB1FDA79AE00944B4D /* AccelerometerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccelerometerViewController.m; sourceTree = "<group>"; };
+		8C9E91BF1FDA9D6900944B4D /* taptosteer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taptosteer.png; sourceTree = "<group>"; };
+		8C9E91C11FDA9D6F00944B4D /* tilttosteer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tilttosteer.png; sourceTree = "<group>"; };
+		8C9E91C31FDAA22D00944B4D /* controlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = controlViewController.h; sourceTree = "<group>"; };
+		8C9E91C41FDAA22D00944B4D /* controlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = controlViewController.m; sourceTree = "<group>"; };
 		8CA3C1B21FC3CCE900512EA8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		8CA7E0B31FBDF02D00060062 /* Meteor Showermenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Meteor Showermenu.jpg"; sourceTree = "<group>"; };
 		8CA7E0BF1FBDFF0600060062 /* Artboard 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 1.png"; sourceTree = "<group>"; };
 		8CA7E0C71FBE059700060062 /* iOS 11 Beta Icon 3 - 1024 pixel fullview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS 11 Beta Icon 3 - 1024 pixel fullview.png"; sourceTree = "<group>"; };
 		8CB778931FD5043300E3B7DA /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
@@ -171,12 +176,8 @@
 		8CB778991FD5996F00E3B7DA /* 7_meteor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7_meteor.png; path = "/Users/Ahmedsamir/Documents/xcode/Meatier Shower/7_meteor.png"; sourceTree = "<absolute>"; };
 		8CB7789A1FD5997000E3B7DA /* 4_meteor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4_meteor.png; path = "/Users/Ahmedsamir/Documents/xcode/Meatier Shower/4_meteor.png"; sourceTree = "<absolute>"; };
 		8CB7789B1FD5997000E3B7DA /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = "/Users/Ahmedsamir/Documents/xcode/Meatier Shower/settings.png"; sourceTree = "<absolute>"; };
-		8CB7789C1FD5997100E3B7DA /* bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bk.png; path = "/Users/Ahmedsamir/Documents/xcode/Meatier Shower/bk.png"; sourceTree = "<absolute>"; };
-		8CB7789D1FD5997200E3B7DA /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = "/Users/Ahmedsamir/Documents/xcode/Meatier Shower/star.png"; sourceTree = "<absolute>"; };
-		8CB7789E1FD5997200E3B7DA /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = "/Users/Ahmedsamir/Documents/xcode/Meatier Shower/play.png"; sourceTree = "<absolute>"; };
 		8CB7789F1FD5997300E3B7DA /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = "/Users/Ahmedsamir/Documents/xcode/Meatier Shower/share.png"; sourceTree = "<absolute>"; };
 		8CB778A01FD5997300E3B7DA /* 6_meteor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6_meteor.png; path = "/Users/Ahmedsamir/Documents/xcode/Meatier Shower/6_meteor.png"; sourceTree = "<absolute>"; };
-		8CB778A11FD5997400E3B7DA /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled-1.png"; path = "/Users/Ahmedsamir/Documents/xcode/Meatier Shower/Untitled-1.png"; sourceTree = "<absolute>"; };
 		8CB778A21FD5997400E3B7DA /* 3_meteor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3_meteor.png; path = "/Users/Ahmedsamir/Documents/xcode/Meatier Shower/3_meteor.png"; sourceTree = "<absolute>"; };
 		8CB778A31FD5997500E3B7DA /* 2_meteor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2_meteor.png; path = "/Users/Ahmedsamir/Documents/xcode/Meatier Shower/2_meteor.png"; sourceTree = "<absolute>"; };
 		8CB778A41FD5997500E3B7DA /* 1_meteor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1_meteor.png; path = "/Users/Ahmedsamir/Documents/xcode/Meatier Shower/1_meteor.png"; sourceTree = "<absolute>"; };
@@ -228,24 +229,22 @@
 				8C1A76D51FBD037600A5574D /* Meatier ShowerTests */,
 				8C1A76E01FBD037600A5574D /* Meatier ShowerUITests */,
 				8C1A76BB1FBD037600A5574D /* Products */,
-				8C9E91AC1FDA647E00944B4D /* background_score.jpg */,
+				8C9E91BF1FDA9D6900944B4D /* taptosteer.png */,
+				8C9E91C11FDA9D6F00944B4D /* tilttosteer.png */,
+				8C9E91B81FDA710300944B4D /* back.png */,
+				8C9E91B61FDA6F4E00944B4D /* background_score.jpg */,
+				8C9E91AF1FDA6BD600944B4D /* repeat.png */,
 				8C9E91A81FDA41FF00944B4D /* backgroundsetting.png */,
-				8C9E91AA1FDA641200944B4D /* backgroundscore.jpg */,
-				8C9E91A41FDA3E2E00944B4D /* PixelArt.png */,
-				8C9E91A61FDA414600944B4D /* bsetting.jpg */,
-				8C9E91A21FDA3A4000944B4D /* BackGround  menu.png */,
 				8CA7E0BF1FBDFF0600060062 /* Artboard 1.png */,
 				8CB778A51FD5997600E3B7DA /* Meteor Shower-bacjground.png */,
 				8CB778931FD5043300E3B7DA /* play.png */,
+				8C9E91B21FDA6C1900944B4D /* share.png */,
 				8C328D731FD4FFEF00C5DE70 /* bk.png */,
-				8C328D711FD4FF6B00C5DE70 /* Untitled-1.png */,
-				8C328D671FD4FD4100C5DE70 /* share.png */,
 				8CB7789F1FD5997300E3B7DA /* share.png */,
 				8C328D681FD4FD4100C5DE70 /* star.png */,
-				8CB7789E1FD5997200E3B7DA /* play.png */,
+				8C9E91B41FDA6C6C00944B4D /* star.png */,
 				8C328D6B1FD4FD4200C5DE70 /* settings.png */,
 				8CB778981FD5996F00E3B7DA /* 12_meteor.png */,
-				8CB7789C1FD5997100E3B7DA /* bk.png */,
 				8C328D691FD4FD4200C5DE70 /* close.png */,
 				8C2E19661FD1215C008F3FB7 /* Meteor Shower-bacjground.png */,
 				8CB778A41FD5997500E3B7DA /* 1_meteor.png */,
@@ -261,8 +260,6 @@
 				8CB778951FD5996E00E3B7DA /* 11_meteor.png */,
 				8CB778961FD5996E00E3B7DA /* close.png */,
 				8CB7789B1FD5997000E3B7DA /* settings.png */,
-				8CB7789D1FD5997200E3B7DA /* star.png */,
-				8CB778A11FD5997400E3B7DA /* Untitled-1.png */,
 				8CDE9D9A1FCFBF7D00819D9D /* MyVeryOwnDeadShip.wav */,
 				8CDE9D961FCF98B700819D9D /* hit.wav */,
 				8CDE9D971FCF98B800819D9D /* over.wav */,
@@ -292,7 +289,6 @@
 				8CCA27041FC2446100A5DD31 /* giphy.png */,
 				8CA7E0C71FBE059700060062 /* iOS 11 Beta Icon 3 - 1024 pixel fullview.png */,
 				8C1A76F01FBD038700A5574D /* giphy.gif */,
-				8CA7E0B31FBDF02D00060062 /* Meteor Showermenu.jpg */,
 				8C1A77031FBD05DB00A5574D /* shoot.png */,
 				8C1A77051FBD05E600A5574D /* spaceship.png */,
 				8CA3C1B11FC3CCE900512EA8 /* Frameworks */,
@@ -316,9 +312,13 @@
 				8C1A76BE1FBD037600A5574D /* AppDelegate.m */,
 				8C1A76C01FBD037600A5574D /* ViewController.h */,
 				8C1A76C11FBD037600A5574D /*  ViewController.m */,
+				8C9E91BA1FDA79AE00944B4D /* AccelerometerViewController.h */,
+				8C9E91BB1FDA79AE00944B4D /* AccelerometerViewController.m */,
 				8C73EA441FCE64A000178E56 /* ResultViewController.h */,
 				8C73EA451FCE64A000178E56 /* ResultViewController.m */,
 				8C1A76C31FBD037600A5574D /* Main.storyboard */,
+				8C9E91C31FDAA22D00944B4D /* controlViewController.h */,
+				8C9E91C41FDAA22D00944B4D /* controlViewController.m */,
 				8C3B51A81FD44AF200DB90E4 /* OptionsViewController.h */,
 				8C3B51A91FD44AF200DB90E4 /* OptionsViewController.m */,
 				8C2E19681FD1956E008F3FB7 /* ExitViewController.h */,
@@ -472,19 +472,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB778FE1FD725F700E3B7DA /* 6_meteor.png in Resources */,
+				8C9E91B31FDA6C1900944B4D /* share.png in Resources */,
 				8CDE9D981FCF98B800819D9D /* hit.wav in Resources */,
 				8C73EA3F1FCDFD7200178E56 /* 3_rock.png in Resources */,
 				8CB778F91FD725E200E3B7DA /* Meteor Shower-bacjground.png in Resources */,
 				8C7ED8F71FC51D1000508CBF /* 8.png in Resources */,
-				8C9E91A71FDA414800944B4D /* bsetting.jpg in Resources */,
 				8C73EA331FCDFCE000178E56 /* 10_rock.png in Resources */,
 				8C7ED8EF1FC4835B00508CBF /* 7.png in Resources */,
 				8CA7E0C01FBDFF0700060062 /* Artboard 1.png in Resources */,
+				8C9E91B51FDA6C6C00944B4D /* star.png in Resources */,
 				8CB778FF1FD725FA00E3B7DA /* 5_meteor.png in Resources */,
 				8C7ED8F01FC4835B00508CBF /* 6.png in Resources */,
 				8CB779031FD7260800E3B7DA /* 10_meteor.png in Resources */,
 				8CDE9D991FCF98B800819D9D /* over.wav in Resources */,
-				8C9E91A31FDA3A4100944B4D /* BackGround  menu.png in Resources */,
+				8C9E91B91FDA710400944B4D /* back.png in Resources */,
 				8C1A77061FBD05E600A5574D /* spaceship.png in Resources */,
 				8C7ED8EE1FC4835B00508CBF /* 4.png in Resources */,
 				8C328D6D1FD4FD4200C5DE70 /* star.png in Resources */,
@@ -498,13 +499,14 @@
 				8CB779021FD7260500E3B7DA /* 9_meteor.png in Resources */,
 				8CCA270A1FC249C600A5DD31 /* Launch Screen.storyboard in Resources */,
 				8CB778FB1FD725EF00E3B7DA /* 2_meteor.png in Resources */,
+				8C9E91B11FDA6BFE00944B4D /* share.png in Resources */,
 				8C1A76F41FBD038700A5574D /* giphy.gif in Resources */,
 				8C7ED8F21FC4835B00508CBF /* 3.png in Resources */,
 				8C73EA431FCDFD7200178E56 /* 6_rock.png in Resources */,
-				8C328D721FD4FF6C00C5DE70 /* Untitled-1.png in Resources */,
 				8CB779041FD7260C00E3B7DA /* 11_meteor.png in Resources */,
 				8C73EA3D1FCDFD7200178E56 /* 4_rock.png in Resources */,
 				8C7ED8F11FC4835B00508CBF /* 1.png in Resources */,
+				8C9E91B71FDA6F4F00944B4D /* background_score.jpg in Resources */,
 				8C9E919E1FD9F8FB00944B4D /* backgroundmainmenu.mov in Resources */,
 				8C328D741FD4FFEF00C5DE70 /* bk.png in Resources */,
 				8CA7E0C81FBE059700060062 /* iOS 11 Beta Icon 3 - 1024 pixel fullview.png in Resources */,
@@ -515,17 +517,15 @@
 				8CDE9D9B1FCFBF7D00819D9D /* MyVeryOwnDeadShip.wav in Resources */,
 				8C73EA3E1FCDFD7200178E56 /* 7_rock.png in Resources */,
 				8CB779011FD7260200E3B7DA /* 8_meteor.png in Resources */,
-				8C9E91A51FDA3E2F00944B4D /* PixelArt.png in Resources */,
 				8C73EA421FCDFD7200178E56 /* 1_rock.png in Resources */,
-				8C9E91AB1FDA641300944B4D /* backgroundscore.jpg in Resources */,
+				8C9E91C01FDA9D6A00944B4D /* taptosteer.png in Resources */,
+				8C9E91B01FDA6BD800944B4D /* repeat.png in Resources */,
 				8CB778941FD5043400E3B7DA /* play.png in Resources */,
 				8C73EA411FCDFD7200178E56 /* 2_rock.png in Resources */,
-				8C9E91AD1FDA648000944B4D /* background_score.jpg in Resources */,
 				8C7ED8F31FC4835B00508CBF /* 5.png in Resources */,
-				8C328D6C1FD4FD4200C5DE70 /* share.png in Resources */,
 				8CCA270C1FC24FD200A5DD31 /* Meteor Shower.jpg in Resources */,
+				8C9E91C21FDA9D7000944B4D /* tilttosteer.png in Resources */,
 				8C7ED8ED1FC4835B00508CBF /* 2.png in Resources */,
-				8CA7E0B41FBDF02D00060062 /* Meteor Showermenu.jpg in Resources */,
 				8C73EA341FCDFCE000178E56 /* 8_rock.png in Resources */,
 				8C328D701FD4FD4200C5DE70 /* settings.png in Resources */,
 				8C1A76C51FBD037600A5574D /* Main.storyboard in Resources */,
@@ -556,8 +556,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C9E91C51FDAA22D00944B4D /* controlViewController.m in Sources */,
 				8C2E196A1FD1956E008F3FB7 /* ExitViewController.m in Sources */,
 				8C1A76C21FBD037600A5574D /*  ViewController.m in Sources */,
+				8C9E91BC1FDA79AE00944B4D /* AccelerometerViewController.m in Sources */,
 				8C1A76CD1FBD037600A5574D /* main.m in Sources */,
 				8C2E19651FD11DDD008F3FB7 /* FirstViewController.m in Sources */,
 				8C1A76BF1FBD037600A5574D /* AppDelegate.m in Sources */,

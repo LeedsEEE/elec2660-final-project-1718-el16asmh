@@ -44,7 +44,28 @@ int highscorepath;
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)viewDidAppear:(BOOL)animated {
+    // meteor.center = CGPointMake(120, 60);
+    
+    //animation for the meteor
+    _rock.animationImages = [NSArray arrayWithObjects :
+                               [UIImage imageNamed:@"1_rock.png"],
+                               [UIImage imageNamed:@"2_rock.png"],
+                               [UIImage imageNamed:@"3_rock.png"],
+                               [UIImage imageNamed:@"4_rock.png"],
+                               [UIImage imageNamed:@"5_rock.png"],
+                               [UIImage imageNamed:@"6_rock.png"],
+                               [UIImage imageNamed:@"7_rock.png"],
+                               [UIImage imageNamed:@"8_rock.png"],
+                               [UIImage imageNamed:@"9_rock.png"],
+                               [UIImage imageNamed:@"10_rock.png"],
+                             
+                               nil]; //'nil' clears the imageView at the end of the animation??
+    
+    _rock.animationDuration = 0.80;
+    [_rock setAnimationRepeatCount:1000];
+    [_rock startAnimating]; // start the animation/*/
+}
 
 
 @end

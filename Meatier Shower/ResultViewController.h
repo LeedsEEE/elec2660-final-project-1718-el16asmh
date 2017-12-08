@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ResultViewController : UIViewController
+@property IBOutlet UIImageView *rock;
 @property (nonatomic) int score;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property (weak, nonatomic) IBOutlet UILabel *highscoreLabel;
